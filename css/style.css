@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: gray;
+    height: 100vh;
+
+}
+
+.card {
+    width: 40%;
+    height: 50vh;
+    text-align: center;
+    padding-top: 20px;
+    background: white;
+    box-shadow: 5px 10px 10px black;
+
+}
+
+.card-title {
+    color: yellowgreen;
+    font-size: 3rem;
+    padding: 10px 0px 10px 0;
+}
+
+.todo-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.todo-input {
+    padding: 15px;
+    width: 100%;
+    border: .3px solid yellowgreen;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.todo-input::placeholder{
+ color: yellowgreen;
+ font-size: 1rem;
+ font-weight: bold;
+}
+.todo-input:focus-within{
+    outline: none;
+}
+.btn {
+    width: 30%;
+    border: none;
+    background-color: chocolate;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: .3s;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.btn:hover{
+    background: yellowgreen;
+    width: 45%;
+
+}
